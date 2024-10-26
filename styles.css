@@ -1,0 +1,466 @@
+body {
+  font-family: 'manrope', sans-serif;}
+
+/* Текстовые стили */
+h1{
+font-family: manrope, sans-serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 125%;
+font-optical-sizing: auto;
+padding: 0;
+margin: 0;
+color: #222222;
+}
+
+h2{
+font-family: manrope, sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 125%;
+font-optical-sizing: auto;
+padding: 0;
+margin: 0;
+color: #222222;
+}
+
+h3{
+font-family: manrope, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 125%;
+font-optical-sizing: auto;
+padding-top: 0px;
+margin: 0;
+color: #222222;
+transition: transform 0.3s ease
+}
+
+
+.body {
+  font-family: manrope, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  font-optical-sizing: auto;
+  padding: 0;
+  margin: 0;
+  color: #222222;
+}
+
+ul {
+            list-style-position: inside; /* маркеры будут внутри элемента списка */
+            padding-left: 0px; /* убираем отступ слева */
+        }
+
+li {
+            margin-left: 12px; /* добавляем отступ для смещения текста */
+            margin-bottom: 4px;
+
+        }
+
+
+
+.markers li::marker {
+    color: #6C6C6C;
+
+}
+
+.marker{
+    margin: 0 0 0 -0.05em;
+  padding: 0.10em 0.25em;
+  border-radius: 0.8em 0.3em 0.8em 0.3em;
+}
+
+.fff {
+display: flex;
+flex-direction:row;
+gap: 8px;
+}
+.subtitle {
+  font-family: manrope, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135%;
+  font-optical-sizing: auto;
+  padding: 0;
+  margin: 0;
+  color: #6C6C6C;
+}
+
+/* Все остальное */
+
+.overflow {
+display: grid;
+grid-template-columns: repeat(12, 1fr); /* 12 колонки, равной ширины */
+margin:120px 5% 0px;
+column-gap: 24px; /* Зазор только между колонками */
+row-gap: 0; /* Зазор между строками установлен в 0 */
+justify-content: stretch;
+}
+
+.overflow-about {
+display: grid;
+grid-template-columns: repeat(12, 1fr); /* 12 колонки, равной ширины */
+margin:80px 5% 0px;
+column-gap: 24px; /* Зазор только между колонками */
+row-gap: 0; /* Зазор между строками установлен в 0 */
+justify-content: stretch;
+}
+
+.intro-block {
+grid-column: 4 / 10;
+display: flex;
+flex-direction: column;
+row-gap: 12px;
+margin-top:120px;
+}
+
+
+.portfolio {
+grid-column: 4 / 10;
+display: flex; /* Делает контейнер flex-контейнером */
+flex-direction: column;
+gap: 36px; /* Задаёт интервал между элементами в пикселях */
+justify-content: left;
+margin-top:100px;
+}
+
+.cards {
+grid-column: 4 / 10;
+display: flex; /* Делает контейнер flex-контейнером */
+flex-direction: column;
+gap: 88px; /* Задаёт интервал между элементами в пикселях */
+justify-content: left;
+}
+
+.grid-item{
+background-color: lightblue; /* Цвет фона для элементов */
+border: 1px solid #333; /* Обводка для элементов */
+padding: 20px; /* Отступ внутри элементов */
+text-align: center; /* Центрируем текст */
+}
+
+
+.two-columns {
+display: flex; /* Используем flex для равных колонок */
+flex-direction:row;
+justify-content: space-between;
+gap: 24px;
+}
+
+.container-img1 {
+display: flex;
+align-items: center; /* Центрирование по вертикали */
+margin-top:36px;
+gap: 24px;
+        }
+
+.random-fact {
+display: flex;
+flex-direction:row;
+gap: 12px;
+align-items: center;
+margin-top:12px;
+}
+.element {
+display: flex;
+flex-direction:column;
+gap: 4px;
+margin-top:12px;
+}
+.element-cv {
+display: flex;
+flex-direction: row;
+gap: 16px;
+margin-top:0px;
+}
+
+.element-figma {
+  display: inline-block; /* Включаем flexbox */
+  flex-direction: row; /* Располагаем элементы в ряд */
+gap: 16px; /* Расстояние между элементами */
+align-content: center;}
+
+.paragraph {
+display: flex;
+flex-direction:column;
+gap: 8px;
+margin-top:0px;
+}
+.paragraph-new {
+display: flex;
+flex-direction:column;
+gap: 16px;
+margin-top:16px;
+}
+.paragraph-center {
+display: flex;
+flex-direction:column;
+gap: 16px;
+margin-top:48px;
+}
+
+.video-bg {
+  width: 100%;
+
+
+}
+summary {
+  font-family: manrope, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  font-optical-sizing: auto;
+  margin-bottom: 16px;
+  color: #1864ab;
+}
+summary:hover {
+          color:#f41224;}
+
+details {
+  gap: 8px;
+  margin-top:12px;
+}
+
+.another-image {
+  margin-bottom:48px;
+  border-radius: 16px;
+}
+
+.experience{
+display: inline-block;
+flex-direction:column;
+margin-top:20px;
+}
+
+.no-flex {
+       display: block; /* или иное значение */
+   }
+
+.block-one{
+margin-top:24px;
+}
+
+.round-icon {
+background-color: #E6F4EA; /* Серый фон */
+            width: 24px; /* Ширина контейнера */
+            height: 24px; /* Высота контейнера */
+            display: flex; /* Флекс-контейнер */
+            align-items: center; /* Центрирование по вертикали */
+            justify-content: center; /* Центрирование по горизонтали */
+            border-radius: 160px; /* Закругленные углы (по желанию) */
+        color: #188038; /* Цвет иконки */
+         cursor: pointer;
+        }
+
+
+
+
+
+.buttons{
+display: flex;
+flex-direction:row;
+gap: 16px;
+margin-top:36px;
+}
+
+
+.badge-present {
+            display: inline-block;
+            padding: 4px 8px;
+            background-color: #E6F4EA; /* Цвет фона */
+            color: #188038; /* Цвет текста */
+            border-radius: 8px; /* Закругление краев */
+            font-size: 12px; /* Размер шрифта */
+            font-weight: bold; /* Жирный шрифт */
+ }
+
+ .badge-past {
+            display: inline-block;
+            padding: 6px 8px;
+            background-color: #F7F7F9; /* Цвет фона */
+            color: #4C5053; /* Цвет текста */
+            border-radius: 8px; /* Закругление краев */
+            font-size: 12px; /* Размер шрифта */
+            font-weight: bold; /* Жирный шрифт */
+ }
+ .badge-adv {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #F6EEFF; /* Цвет фона */
+            color: #8069BF; /* Цвет текста */
+            border-radius: 8px; /* Закругление краев */
+            font-size: 12px; /* Размер шрифта */
+            font-weight: bold; /* Жирный шрифт */
+ }
+
+/* После изменения ширины экрана на 768px (или другой порог) */
+@media (max-width: 768px) {
+    .buttons {
+        flex-direction: column; /* На малых экранах элементы будут расположены один под другим */
+    }
+
+h1 {
+font-family: manrope, sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 125%x;
+font-optical-sizing: auto;
+padding: 0;
+margin: 0;
+color: #222222;
+}
+}
+.back-button {
+    border: none;
+    font-family:manrope, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 135%;
+    font-optical-sizing: auto;
+    color:#6C6C6C;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.back-button:hover {
+      color:#222222;
+}
+.figma-button {
+    border: none;
+    font-family:manrope, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 135%;
+    font-optical-sizing: auto;
+    color:#1864ab;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    }
+
+.figma-button-v {
+        border: none;
+        font-family:manrope, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 135%;
+        font-optical-sizing: auto;
+        color:#1864ab;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        margin-left: 16px;
+        }
+
+  .figma-button:hover {
+            color:#f41224;
+          }
+
+  .figma-button-v:hover {
+                      color:#f41224;}
+
+/* Основная кнопка и иконка  */
+
+.simple-button {
+    text-decoration: none;
+    padding: 24px 24px;
+    background-color: #F7F7F9;
+    border: none;
+    border-radius: 12px;
+    font-family:manrope, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 135%;
+    font-optical-sizing: auto;
+    color:#222222;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+
+.simple-button:hover {
+    background-color: #E5D9FF; /* Темнее при наведении */
+    color:#222222;
+}
+
+.icon {
+  margin-left: 16px;
+  opacity: 0; /* Изначально иконка невидима */
+  position: absolute;
+  color:#A979CE;
+}
+
+.simple-button:hover .icon{
+  opacity: 1; /* Показать иконку */
+  transition: opacity 0.5s ease;
+}
+
+.icon:hover{
+    color:#6000A9;
+}
+
+.show-icon {
+  opacity: 1; /* Показать иконку */
+  transition: opacity 0.5s ease;
+        }
+
+
+/* Карточка проекта  */
+.project {
+display: flex;
+gap: 4px;
+flex-direction: column;
+}
+
+
+.project:hover h3 {
+color: #8D65FF;
+transition: color 0.1s linear;
+}
+
+.project:hover img {
+transform: scale(1.05); /* Увеличиваем масштаб */
+}
+
+.scale {
+display: inline-block; /* Строчно-блочный элемент */
+overflow: hidden;
+border-radius: 16px; /* Скрываем всё за контуром */
+}
+
+.scale img {
+transition: 1s; /* Время эффекта */
+display: block; /* Убираем небольшой отступ снизу */
+}
+
+.scale img:hover {
+transform: scale(1.05); /* Увеличиваем масштаб */
+  }
+
+
+
+/* Фуутер  */
+.footer {
+  display: flex; /* Используем flex для равных колонок */
+  flex-direction:row;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 16px;
+}
+
+.bottom-name {
+  font-family: manrope, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+  font-optical-sizing: auto;
+  padding: 0;
+  margin: 0;
+  color: #6C6C6C;
+}
